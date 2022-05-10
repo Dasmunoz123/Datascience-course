@@ -1,1 +1,1 @@
-# Datascience-course
+# DataScience-Course
