@@ -32,7 +32,7 @@ plt.show()
 
 ##
 ## Training knn
-X_train, X_test, y_train, y_test = train_test_split(X_fruits, y_fruits, random_state=0)
+X_train, X_test, y_train, y_test = train_test_split(X_fruits, y_fruits, random_state=0) ## splits training and test data 70-30
 scaler = MinMaxScaler() # we must apply the scaling to the test set that we computed for the training set
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
